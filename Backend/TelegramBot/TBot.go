@@ -15,7 +15,7 @@ func InitTBot() {
 	defer logger.Sync()
 	log := logger.Sugar()
 
-	bot, err := tgbotapi.NewBotAPI("1344007633:AAHQM-4JAAF3ktfO-Jbr5xsB-oCGuz-r2dI")
+	bot, err := tgbotapi.NewBotAPI("token")
 	if err != nil {
 		log.Error(err)
 	}
